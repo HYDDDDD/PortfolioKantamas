@@ -13,7 +13,11 @@ const Button: FC<ButtonProps> = ({ variant, className, children, ...props }) => 
   // console.log([variant]) -> log -> ['something send via props']
   // variant -> send props via component
 
-  return <button className={clsx(`button`, variant, className)}>{children}</button>
+  return (
+    <button className={clsx(`button`, variant, className)} {...props}>
+      {children}
+    </button>
+  )
 }
 
 export default Button
