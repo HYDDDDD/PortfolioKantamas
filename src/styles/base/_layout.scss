@@ -1,0 +1,20 @@
+@layer base {
+  html,
+  body,
+  #__next {
+    @apply h-full;
+  }
+
+  section {
+    @apply main-space-x;
+  }
+
+  #__next {
+    @apply flex flex-col;
+
+    main {
+      @apply flex-1;
+      padding-top: var(--header-height);
+    }
+  }
+}
