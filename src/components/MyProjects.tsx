@@ -94,7 +94,7 @@ const MyProjects = () => {
         </div>
         <div className="flex items-center space-x-4 p-4">
           <p className={clsx(`text-body-20`)}>Other projects :</p>
-          <Link href="https://github.com/HYDDDDD" target="_blank" rel="noreferrer">
+          <Link href="https://github.com/HYDDDDD?tab=repositories" target="_blank" rel="noreferrer">
             <Button variant={'default'} className={clsx(`flex gap-1 bg-black text-white`, `hover:bg-slate-800`)}>
               <AiFillGithub />
               GitHub
