@@ -69,7 +69,7 @@ const MyProjects = () => {
                         <br />
                         <span className={topicProject}>Description</span> :
                         <span className={contantProject}>
-                          A project that My react first time. practice React , Tailwind CSS , JavaScript and CSS. I
+                          A project that My react first time practice React , Tailwind CSS , JavaScript and CSS. I
                           studied on a YouTube channel named KongRuksiam Official.
                         </span>
                         <br />
