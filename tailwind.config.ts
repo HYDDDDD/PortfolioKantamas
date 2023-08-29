@@ -58,32 +58,8 @@ const config: Config = {
       colors: {
         // primary
 
-        dark: {
-          50: '#F7F7F7', // black-50
-          200: '#C8C8C8', // black-200
-          600: '#515151', // black-600
-          900: '#0D0D0D', // black-900
-        },
-
-        success: {
-          500: '#27AE60',
-        },
-
-        warning: {
-          500: '#F2C94C',
-        },
-
-        error: {
-          500: '#EB5757',
-        },
-
-        info: {
-          100: '#DDECFC',
-          400: '#2F80ED', // blue 1
-          500: '#3C79E1',
-        },
-
-        // background
+        // color website Fastwork
+        fastWork: '#08439b',
       },
       spacing: {
         'header-height': 'var(--header-height)',

@@ -1,0 +1,15 @@
+.button {
+  @apply items-center justify-center rounded-xl transition;
+
+  min-height: 40px;
+
+  /* &.class name  -> css : .something -> scss : &.something */
+
+  &.default {
+    @apply px-4;
+  }
+
+  &.primary {
+    @apply bg-orange-500 px-2;
+  }
+}
