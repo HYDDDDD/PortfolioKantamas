@@ -17,7 +17,7 @@ const AboutMe = () => {
           priority
           src={profile}
           quality={30}
-          alt="Profile"
+          alt="profile"
           style={{ objectFit: 'cover' }}
           className="flex h-48 w-48 items-center justify-center rounded-full bg-orange-300 text-center shadow-md"
         />
@@ -49,11 +49,11 @@ const AboutMe = () => {
               noreferrer masks your referral links in destination analytics. It protects your site’s information from being transferred to the website your users are navigating to.
           */}
 
-          <a href="/Kantamas.pdf" target="_blank" rel="noopener noreferrer">
+          <Link href="/Kantamas.pdf" target="_blank" rel="noopener noreferrer">
             <Button variant={'default'} className={clsx(`bg-orange-500 text-white`, `hover:bg-orange-600`)}>
               Resume
             </Button>
-          </a>
+          </Link>
 
           <Link href="https://github.com/HYDDDDD" target="_blank" rel="noreferrer">
             <Button variant={'default'} className={clsx(`flex gap-1 bg-black text-white`, `hover:bg-slate-800`)}>

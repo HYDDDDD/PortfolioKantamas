@@ -1,0 +1,7 @@
+.card {
+  @apply rounded-lg shadow-lg;
+
+  &.body {
+    @apply p-10;
+  }
+}
