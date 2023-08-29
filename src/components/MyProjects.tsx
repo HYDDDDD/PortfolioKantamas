@@ -27,8 +27,8 @@ const MyProjects = () => {
       <div className="container">
         <p className={clsx(`text-header-4`, `sm:text-header-5`)}>My Project</p>
         <div className="p-4">
-          <p className={clsx(`text-body-20`)}>Deployed project.</p>
-          <div className="space-y-10">
+          <p className={clsx(`text-header-5`, `sm:text-header-6`)}>Deployed projects</p>
+          <div className="mt-4 space-y-10">
             {MOCKDEPLOYEDPROJECTIMAGE.map((dataDeployedProject) => {
               return (
                 <div key={dataDeployedProject.alt}>
@@ -41,22 +41,19 @@ const MyProjects = () => {
 
                   {dataDeployedProject.alt === 'project dessert shop' && (
                     <div>
-                      <p className={topicProject}>Project Dessert Shop</p>
+                      <p className={topicProject}>Project Dessert Shop.</p>
                       <p className={clsx(`p-4`)}>
                         <span className={topicProject}>Start a project</span> :
                         <span className={contantProject}>Freshman in university.</span>
                         <br />
                         <span className={topicProject}>Description</span> :
                         <span className={contantProject}>
-                          A project that practice HTML, CSS (not responsive for mobile and tablet).
+                          A project that practice HTML , CSS (not responsive for mobile and tablet).
                         </span>
                         <br />
                         <Link href="https://dessert-shop.netlify.app/" target="_blank" rel="noreferrer">
-                          <Button
-                            variant={'default'}
-                            className={clsx(`mt-4 bg-orange-500 text-white`, `hover:bg-orange-600`)}
-                          >
-                            Link
+                          <Button variant={'primary'} className={clsx(`mt-4 text-white`)}>
+                            Link my project
                           </Button>
                         </Link>
                         <br />
@@ -65,22 +62,20 @@ const MyProjects = () => {
                   )}
                   {dataDeployedProject.alt === 'project income expense account' && (
                     <div>
-                      <p className={topicProject}>Project Income expense account</p>
+                      <p className={topicProject}>Project Income expense account.</p>
                       <p className={clsx(`p-4`)}>
                         <span className={topicProject}>Start a project</span> :
                         <span className={contantProject}>Freshman in university.</span>
                         <br />
                         <span className={topicProject}>Description</span> :
                         <span className={contantProject}>
-                          A project that practice HTML, CSS (not responsive for mobile and tablet).
+                          A project that My react first time. practice React , Tailwind CSS , JavaScript and CSS. I
+                          studied on a YouTube channel named KongRuksiam Official.
                         </span>
                         <br />
                         <Link href="https://fai-react-1.netlify.app/" target="_blank" rel="noreferrer">
-                          <Button
-                            variant={'default'}
-                            className={clsx(`mt-4 bg-orange-500 text-white`, `hover:bg-orange-600`)}
-                          >
-                            Link
+                          <Button variant={'primary'} className={clsx(`mt-4 text-white`)}>
+                            Link my project
                           </Button>
                         </Link>
                         <br />

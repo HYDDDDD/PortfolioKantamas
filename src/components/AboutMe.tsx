@@ -38,7 +38,7 @@ const AboutMe = () => {
                 <p className="break-words">
                   My family taught me to try learning on my own.
                   <br />
-                  That's why I develop myself, learn new things and practices yourself
+                  That's why I develop myself, learn new things and practices yourself.
                 </p>
               </div>
             </div>
@@ -50,7 +50,7 @@ const AboutMe = () => {
           */}
 
           <Link href="/Kantamas.pdf" target="_blank" rel="noopener noreferrer">
-            <Button variant={'default'} className={clsx(`bg-orange-500 text-white`, `hover:bg-orange-600`)}>
+            <Button variant={'primary'} className={clsx(`text-white`)}>
               Resume
             </Button>
           </Link>
@@ -67,7 +67,7 @@ const AboutMe = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Button variant={'default'} className={clsx(`bg-fastWork flex gap-1 text-white`, `hover:bg-blue-700`)}>
+            <Button variant={'default'} className={clsx(`flex gap-1 bg-fastWork text-white`, `hover:bg-blue-700`)}>
               Fastwork
             </Button>
           </Link>
